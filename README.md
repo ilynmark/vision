@@ -45,9 +45,9 @@ dataset, info = tfds.load('oxford_iiit_pet:3.*.*', with_info=True)
 
 
 # Usage
-## 1. Training:
+### 1. Training:
 You can use train.py for training the model based on existing masks dataset.
-## 2. Inference:
+### 2. Inference:
 You can use inference.py to process any image and save output in the result folder.
 
 # Visualization
