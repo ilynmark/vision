@@ -35,7 +35,7 @@ dataset, info = tfds.load('oxford_iiit_pet:3.*.*', with_info=True)
     - model.py: Defines the U-Net model architecture, layers, and loss functions.
     - train.py: Contains training code. Accepts dataset paths and hyperparameters as inputs, producing and saving checkpoints.
     - inference.py: Contains model inference code for processing a single image, saving the output in the "Result" folder.
-    - Data Folder:
+- Data Folder:
 
     - training: Contains data used for training.
     - validation: Contains data used for validation.
