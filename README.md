@@ -1,4 +1,4 @@
-# Image Segmentation Project
+# Image Segmentation
 
 This project focuses on image segmentation using a modified U-Net model on the Oxford-IIIT Pet Dataset.
 
@@ -31,12 +31,12 @@ dataset, info = tfds.load('oxford_iiit_pet:3.*.*', with_info=True)
 ```
 
 ## Project Structure
-- Code Folder:
-    - dataset.py: Handles dataset-related tasks, including preprocessing, augmentation, and post-processing.
-    - model.py: Defines the U-Net model architecture, layers, and loss functions.
-    - train.py: Contains training code. Accepts dataset paths and hyperparameters as inputs, producing and saving checkpoints.
-    - inference.py: Contains model inference code for processing a single image, saving the output in the "Result" folder.
-- Result Folder:
+- **Code Folder:**
+    - `dataset.py`: Handles dataset-related tasks, including preprocessing, augmentation, and post-processing.
+    - `model.py`: Defines the U-Net model architecture, layers, and loss functions.
+    - `train.py`: Contains training code. Accepts dataset paths and hyperparameters as inputs, producing and saving checkpoints.
+    - `inference.py`: Contains model inference code for processing a single image, saving the output in the `Result` folder.
+- **Result Folder:**
     - Contains the results of the testing phase.
 
 ## Usage
@@ -49,7 +49,7 @@ Train and Validation Loss comparison: Validation loss is higher then training lo
 Got good predictions on unseen data.
 <br><br><img src="Images/results.png" alt="Result Image" width="400"/><br><br>
 
-Check the "Result" folder for some segmentation results on test images.
+Check the `Result` folder for some segmentation results on test images.
 
 ## License
 This project is licensed under the MIT License.
