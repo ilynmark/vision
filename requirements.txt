@@ -1,0 +1,13 @@
+keras==2.15.0
+matplotlib-inline==0.1.6
+pandas==1.5.3
+Pillow==9.4.0
+tensorflow==2.15.0
+tensorflow-datasets==4.9.3
+tensorflow-estimator==2.15.0
+tensorflow-examples @ git+https://github.com/tensorflow/examples.git@0b14ce1c88537b94772cc99d995d936417be6f5d
+tensorflow-io-gcs-filesystem==0.34.0
+tensorflow-macos==2.15.0
+tensorflow-metadata==1.14.0
+tqdm==4.65.0
+traitlets==5.9.0
