@@ -58,3 +58,6 @@ You can use inference.py to process any image and save output in the result fold
 
 # Acknowledgments
 - This project is based on the TensorFlow Examples repository and the Oxford-IIIT Pet Dataset.
+
+# License
+This project is licensed under the MIT License.
