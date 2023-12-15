@@ -31,17 +31,17 @@ dataset, info = tfds.load('oxford_iiit_pet:3.*.*', with_info=True)
 # Project Structure
 - Code Folder:
 
--- dataset.py: Handles dataset-related tasks, including preprocessing, augmentation, and post-processing.
--- model.py: Defines the U-Net model architecture, layers, and loss functions.
--- train.py: Contains training code. Accepts dataset paths and hyperparameters as inputs, producing and saving checkpoints.
--- inference.py: Contains model inference code for processing a single image, saving the output in the "Result" folder.
-- Data Folder:
+    - dataset.py: Handles dataset-related tasks, including preprocessing, augmentation, and post-processing.
+    - model.py: Defines the U-Net model architecture, layers, and loss functions.
+    - train.py: Contains training code. Accepts dataset paths and hyperparameters as inputs, producing and saving checkpoints.
+    - inference.py: Contains model inference code for processing a single image, saving the output in the "Result" folder.
+    - Data Folder:
 
--- training: Contains data used for training.
--- validation: Contains data used for validation.
--- test: Contains data used for testing.
+    - training: Contains data used for training.
+    - validation: Contains data used for validation.
+    - test: Contains data used for testing.
 - Result Folder:
--- Contains the results of the testing phase.
+    - Contains the results of the testing phase.
 
 
 # Usage
